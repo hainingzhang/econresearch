@@ -1,0 +1,57 @@
+数据:
+  数据集: njmin3
+  主_URL: https://vincentarelbundock.github.io/Rdatasets/csv/wooldridge/njmin3.csv
+  备用_URL:
+  - https://raw.githubusercontent.com/AnthonyPuggs/CardKrueger1994Replication/main/njmin3.csv
+  - https://davidcard.berkeley.edu/data_sets/njmin.zip（代码本验证）
+  原始文件: data/raw/njmin3.csv
+  格式: csv
+  下载时间: '2026-09-16T06:13:29.254112+00:00'
+  sha256: 5dd549a40790d58cd1705474297ba9cf069e3dbc7fd561e4f6e14a1cde98a4d2
+软件:
+  Python: 3.12.3
+  软件包:
+  - name: pandas
+    version: 3.0.5
+  - name: numpy
+    version: 2.5.3
+  - name: requests
+    version: 2.34.2
+  - name: matplotlib
+    version: 3.11.2
+  - name: seaborn
+    version: 0.13.2
+  - name: statsmodels
+    version: 0.15.0
+  - name: scipy
+    version: 1.18.1
+  - name: pyyaml
+    version: 6.0.3
+  - name: tabulate
+    version: 0.10.0
+变量:
+  结果变量: fte
+  处理变量: treat
+  政策后变量: post
+  交互项: did
+  个体标识: restaurant_id
+模型:
+  类型: difference_in_differences
+  公式: fte ~ treat + post + treat:post
+  推断方法: 餐厅聚类协方差；未使用州聚类（仅两个州）
+输出:
+- data/raw/njmin3.csv
+- data/processed/njmin3_clean.csv
+- docs/data_source_log.md
+- docs/data_dictionary.md
+- outputs/data_audit.md
+- outputs/descriptive_statistics.csv
+- outputs/regression_results.csv
+- outputs/regression_table.md
+- outputs/model_diagnostics.md
+- outputs/robustness_results.md
+- outputs/research_memo.md
+失败处理策略:
+  重试次数: 3
+  使用缓存: true
+  伪造数据: false

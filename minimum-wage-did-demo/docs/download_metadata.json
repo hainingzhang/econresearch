@@ -1,0 +1,18 @@
+{
+  "dataset": "njmin3",
+  "primary_url": "https://vincentarelbundock.github.io/Rdatasets/csv/wooldridge/njmin3.csv",
+  "fallback_url": "https://raw.githubusercontent.com/AnthonyPuggs/CardKrueger1994Replication/main/njmin3.csv",
+  "card_archive_validation_url": "https://davidcard.berkeley.edu/data_sets/njmin.zip",
+  "downloaded_at": "2026-09-16T06:13:29.254112+00:00",
+  "source_used": "\u672c\u5730\u975e\u7a7a\u7f13\u5b58\uff08\u539f\u59cb\u5907\u7528\u6765\u6e90\uff1ahttps://raw.githubusercontent.com/AnthonyPuggs/CardKrueger1994Replication/main/njmin3.csv\uff09",
+  "status": "\u5df2\u4f7f\u7528\u7f13\u5b58\uff1b\u672a\u8986\u76d6",
+  "size_bytes": 25960,
+  "sha256": "5dd549a40790d58cd1705474297ba9cf069e3dbc7fd561e4f6e14a1cde98a4d2",
+  "notes": [
+    "\u521d\u6b21\u83b7\u53d6\u65f6\uff0c\u4e3b Rdatasets \u7aef\u70b9\u5728 3 \u6b21\u91cd\u8bd5\u540e\u8fd4\u56de HTTP 404\u3002",
+    "\u5b98\u65b9 Wooldridge \u5305/\u4ed3\u5e93\u672a\u5728\u5f53\u524d\u5305\u5217\u8868\u4e2d\u63d0\u4f9b njmin3\u3002",
+    "\u521d\u59cb\u5907\u7528\u6765\u6e90\u4e3a https://raw.githubusercontent.com/AnthonyPuggs/CardKrueger1994Replication/main/njmin3.csv\uff1b\u6a21\u5f0f\u9a8c\u8bc1\u8981\u6c42 ['centralj', 'co_owned', 'd', 'fte', 'nj', 'pa1', 'pa2', 'southj']\u3002",
+    "Card \u516c\u5f00\u6863\u6848\u4ee3\u7801\u672c\u9a8c\u8bc1\u7aef\u70b9\uff1ahttps://davidcard.berkeley.edu/data_sets/njmin.zip\uff08\u521d\u6b21\u83b7\u53d6\u65f6 HTTP 200\uff09\u3002",
+    "\u672c\u6b21\u8fd0\u884c\u6309\u5931\u8d25\u5904\u7406\u7b56\u7565\u4f7f\u7528\u5df2\u9a8c\u8bc1\u7f13\u5b58\uff1b\u672a\u8fdb\u884c\u7f51\u7edc\u4e0b\u8f7d\u6216\u8986\u76d6\u539f\u59cb\u6587\u4ef6\u3002"
+  ]
+}
