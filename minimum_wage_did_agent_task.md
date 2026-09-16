@@ -103,10 +103,10 @@ Codex 必须先读取数据列名和数据说明，再决定具体变量映射�
 
 估计：
 
-\[
-fte_{it} = \alpha + \beta Treat_i + \gamma Post_t +
+$$
+FTE_{it} = \alpha + \beta Treat_i + \gamma Post_t +
 \delta(Treat_i \times Post_t) + \varepsilon_{it}
-\]
+$$
 
 其中：
 
