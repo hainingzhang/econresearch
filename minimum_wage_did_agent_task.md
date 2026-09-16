@@ -363,7 +363,7 @@ pip install -r requirements.txt
 bash run_all.sh
 ```
 
-## 10. 给 Codex 的最终执行指令
+## 10. 给 Codex 或其他智能体的最终执行指令
 
 请严格按照本文件创建并完成 `minimum-wage-did-demo/` 项目。
 
