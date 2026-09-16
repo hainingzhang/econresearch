@@ -1,6 +1,6 @@
 # 新泽西州最低工资与快餐店就业：DID 可复现分析
 
-本仓库包含一个可复现的课堂研究项目：复现 Card 与 Krueger 所研究的 1992 年新泽西州最低工资上调情境，并以宾夕法尼亚州东部快餐店为比较组，使用差分中的差分（Difference-in-Differences, DID）估计短期就业变化。
+本仓库包含一个可复现的研究项目：复现 Card 与 Krueger 所研究的 1992 年新泽西州最低工资上调情境，并以宾夕法尼亚州东部快餐店为比较组，使用差分中的差分（Difference-in-Differences, DID）估计短期就业变化。
 
 项目不把估计结果表述为无条件因果结论。因果解释依赖平行趋势、有限溢出、测量与样本构成可比等假设；数据只有一个政策前时期、且只有两个地理集群，因此这些限制尤其重要。
 
@@ -54,7 +54,7 @@ bash run_all.sh
 - [数据审计](minimum-wage-did-demo/outputs/data_audit.md)
 - [研究备忘录](minimum-wage-did-demo/outputs/research_memo.md)
 - [可复现性报告](minimum-wage-did-demo/outputs/reproducibility_report.md)
-- `outputs/figures/` 中的描述性图形
+- [描述性图片](minimum-wage-did-demo/outputs/figures/）中的描述性图形
 
 数据下载策略、备用来源、文件哈希和获取记录见[数据来源日志](minimum-wage-did-demo/docs/data_source_log.md)。主 Rdatasets 端点曾返回 404，因此项目使用经代码本核验的备用长格式数据，并保留了这一记录。
 
