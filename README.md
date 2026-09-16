@@ -54,7 +54,7 @@ bash run_all.sh
 - [数据审计](minimum-wage-did-demo/outputs/data_audit.md)
 - [研究备忘录](minimum-wage-did-demo/outputs/research_memo.md)
 - [可复现性报告](minimum-wage-did-demo/outputs/reproducibility_report.md)
-- [描述性图片](minimum-wage-did-demo/outputs/figures/）中的描述性图形
+- [描述性图片](minimum-wage-did-demo/outputs/figures)
 
 数据下载策略、备用来源、文件哈希和获取记录见[数据来源日志](minimum-wage-did-demo/docs/data_source_log.md)。主 Rdatasets 端点曾返回 404，因此项目使用经代码本核验的备用长格式数据，并保留了这一记录。
 
