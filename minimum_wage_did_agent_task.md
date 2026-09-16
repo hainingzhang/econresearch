@@ -104,7 +104,7 @@ Codex 必须先读取数据列名和数据说明，再决定具体变量映射�
 估计：
 
 $$
-FTE_{it} = \alpha + \beta Treat_i + \gamma Post_t +
+fte_{it} = \alpha + \beta Treat_i + \gamma Post_t +
 \delta(Treat_i \times Post_t) + \varepsilon_{it}
 $$
 
@@ -176,7 +176,7 @@ $$
 - 州别和时期的样本分布；
 - 重复餐厅—时期记录；
 - 缺失值表；
-- `fte` 的均值、标准差、最小值、最大值和分位数；
+- `FTE` 的均值、标准差、最小值、最大值和分位数；
 - 不合理值和极端值；
 - 处理组与对照组的样本数量；
 - 可否匹配同一家餐厅的前后两期数据；
