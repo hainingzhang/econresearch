@@ -83,13 +83,28 @@ bash run_all.sh
 
 脚本会依次下载或验证数据、清洗数据、审计数据、生成描述性统计、估计 DID 模型、运行稳健性检查，并写出研究备忘录与可复现性报告。当前脚本不包含正式的识别假设评估步骤，原因见上文“完整研究流程与识别假设评估”。它不会覆盖已有的非空 `data/raw/njmin3.csv`；如需有意刷新数据，请先删除该单个文件。
 
+建议在 MacOS 或 Linux 下，用以下命令，可以直接生成 `～/econresearch/minimum-wage-did-demo/` 目录中研究流水线的所有内容：
+```bash
+mkdir -p ~/econresearch
+cd ~/econresearch
+
+codex \
+  --ask-for-approval never \
+  exec \
+  --model gpt-5.6-terra \
+  -c model_reasoning_effort=low \
+  --sandbox danger-full-access \
+  --skip-git-repo-check \
+  - < minimum_wage_did_agent_task.md
+```
+
 ## 输出与复现
 
 关键产物包括：
 
+- [数据审计](minimum-wage-did-demo/outputs/data_audit.md)
 - [回归结果](minimum-wage-did-demo/outputs/regression_table.md)
 - [稳健性结果](minimum-wage-did-demo/outputs/robustness_results.md)
-- [数据审计](minimum-wage-did-demo/outputs/data_audit.md)
 - [研究备忘录](minimum-wage-did-demo/outputs/research_memo.md)
 - [可复现性报告](minimum-wage-did-demo/outputs/reproducibility_report.md)
 - [描述性图片](minimum-wage-did-demo/outputs/figures)
